@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "patchName": "Custom package name",
+    "options": [
+      {
+        "key": "YouTubePackageName",
+        "value": "com.sakizu.youtube"
+      },
+      {
+        "key": "MusicPackageName",
+        "value": "com.sakizu.music"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom package name",
+    "options": [
+      {
+        "key": "YouTubePackageName",
+        "value": "com.sakizu.youtube"
+      },
+      {
+        "key": "MusicPackageName",
+        "value": "com.sakizu.music"
+      }
+    ]
+  }
+]
+        
