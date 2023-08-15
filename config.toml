@@ -10,20 +10,14 @@ rv-brand = "ReVanced eXtended"
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
-build-mode = "both"                                                   # 'both', 'apk' or 'module'
-excluded-patches = ""                                                 # whitespace seperated list of patches to exclude (multiline strings are not supported)
-included-patches = ""                                                 # whitespace seperated list of patches to include
-version = "auto"                                                      # 'auto', 'latest' or a custom one like '17.40.41'
-exclusive-patches = false                                             # excludes all patches by default
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-module-prop-name = "yt-rvx"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+included-patches = "force-premium-heading"
+excluded-patches = "custom-branding-youtube-name custom-branding-icon-revancify-blue enable-new-thumbnail-preview enable-wide-search-bar hide-autoplay-button hide-autoplay-preview hide-button-container hide-category-bar hide-channel-avatar-section hide-comment-component hide-description-components hide-load-more-button hide-music-button hide-quick-actions hide-seek-message hide-shorts-components hide-time-stamp hide-trending-searches"
+exclusive-patches = false
+version = "auto"
 
 [Music]
-build-mode = "both"
-app-name = "YouTube-Music"
-excluded-patches = ""
-included-patches = ""
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-module-prop-name = "ytm-rvx"
+excluded-patches = "custom-branding-music-name custom-branding-icon-revancify-blue hide-category-bar"
 apkmirror-arch = "both"
