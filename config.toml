@@ -14,6 +14,7 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 included-patches = "force-premium-heading"
 excluded-patches = "custom-branding-youtube-name custom-branding-icon-revancify-blue enable-new-thumbnail-preview enable-wide-search-bar hide-autoplay-button hide-autoplay-preview hide-button-container hide-category-bar hide-channel-avatar-section hide-comment-component hide-description-components hide-load-more-button hide-music-button hide-quick-actions hide-seek-message hide-shorts-components hide-time-stamp hide-trending-searches"
 exclusive-patches = false
+build-mode = "apk"
 version = "auto"
 
 [Music]
@@ -21,3 +22,4 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 version = "auto"
 excluded-patches = "custom-branding-music-name custom-branding-icon-revancify-blue hide-category-bar"
 apkmirror-arch = "both"
+build-mode = "apk"
