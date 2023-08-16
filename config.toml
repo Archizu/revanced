@@ -26,3 +26,9 @@ version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 module-prop-name = "ytm-rvx"
 apkmirror-arch = "both"
+
+[Reddit]
+build-mode = "apk"
+version = "auto"
+apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+apkmirror-arch = "both"
