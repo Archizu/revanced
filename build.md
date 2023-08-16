@@ -1,6 +1,7 @@
+Music (arm64-v8a): 6.15.51  
 YouTube: 18.30.37  
 Music (arm-v7a): 6.15.51  
-Music (arm64-v8a): 6.15.51  
+Reddit: 2023.32.0  
 
 Install [Vanced MicroG](https://github.com/inotia00/VancedMicroG/releases) or [mMicroG](https://github.com/inotia00/mMicroG/releases) to be able to use non-root YouTube or YouTube-Music  
 
