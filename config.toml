@@ -20,7 +20,7 @@ module-prop-name = "yt-rvx"
 
 [Music]
 build-mode = "both"
-excluded-patches = "custom-branding-music-name custom-branding-icon-revancify-blue hide-category-bar"
+excluded-patches = "custom-branding-music-name custom-branding-icon-revancify-blue hide-category-bar hide-category-bar hide-new-playlist-button hide-playlist-card"
 included-patches = ""
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
