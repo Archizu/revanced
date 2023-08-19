@@ -1,4 +1,4 @@
-YouTube: 18.30.37  
+Music: 6.14.52  
 
 Install [Vanced MicroG](https://github.com/inotia00/VancedMicroG/releases) or [mMicroG](https://github.com/inotia00/mMicroG/releases) to be able to use non-root YouTube or YouTube-Music  
 
