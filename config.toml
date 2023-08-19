@@ -12,13 +12,14 @@ rv-brand = "ReVanced eXtended"
 [YouTube]
 build-mode = "apk"                                                   # 'both', 'apk' or 'module'
 included-patches = "force-premium-heading"
-excluded-patches = "change-homepage custom-branding-youtube-name custom-branding-icon-revancify-blue enable-new-splash-animation enable-new-thumbnail-preview enable-wide-search-bar hide-account-menu hide-autoplay-button hide-button-container hide-captions-button hide-category-bar hide-channel-avatar-section hide-comment-component hide-description-components hide-filmstrip-overlay hide-fullscreen-panels hide-handle hide-latest-videos-button hide-layout-components hide-load-more-button hide-mix-playlists hide-music-button hide-previous-next-button hide-quick-actions hide-trending-searches"                                                 # whitespace seperated list of patches to include
+excluded-patches = "bypass-ambient-mode-restrictions change-homepage custom-branding-youtube-name custom-branding-icon-revancify-blue enable-new-splash-animation enable-new-thumbnail-preview enable-wide-search-bar hide-account-menu hide-autoplay-button hide-captions-button hide-category-bar hide-channel-avatar-section hide-description-components hide-handle hide-info-cards hide-latest-videos-button hide-mix-playlists hide-music-button hide-previous-next-button hide-seekbar hide-speed-overlay hide-time-stamp hide-trending-searches"
 version = "auto"                                                      # 'auto', 'latest' or a custom one like '17.40.41'
 exclusive-patches = false                                             # excludes all patches by default
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "yt-rvx"
 
 [Music]
+enabled = false
 build-mode = "apk"
 excluded-patches = "custom-branding-music-name custom-branding-icon-revancify-blue hide-category-bar hide-category-bar hide-new-playlist-button hide-playlist-card"
 included-patches = ""
@@ -28,6 +29,7 @@ module-prop-name = "ytm-rvx"
 apkmirror-arch = "arm64-v8a"
 
 [Reddit]
+enabled = false
 build-mode = "apk"
 version = "auto"
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
