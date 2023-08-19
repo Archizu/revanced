@@ -1,6 +1,4 @@
 YouTube: 18.30.37  
-Music: 6.15.51  
-Reddit: 2023.32.1  
 
 Install [Vanced MicroG](https://github.com/inotia00/VancedMicroG/releases) or [mMicroG](https://github.com/inotia00/mMicroG/releases) to be able to use non-root YouTube or YouTube-Music  
 
